@@ -3,12 +3,12 @@
     <v-app-bar color="#686C6D">
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Test Project</v-toolbar-title>
+      <v-toolbar-title>RDA</v-toolbar-title>
       <Navigation-Buttons :v-if="this.$router" :rout="this.$router">
       </Navigation-Buttons>
     </v-app-bar>
     
-    <v-navigation-drawer v-model="drawer" absolute temporary color="#878B8B" width="400">
+    <v-navigation-drawer v-model="drawer" absolute temporary color="#878B8B" width="450">
       <vue-scroll>
       <figure class="pa-4 d-flex flex-row justify-content justify-center align-items align-center">
         <img src="../assets/logo.png" />
