@@ -2,7 +2,7 @@
     <div>
         <figure class="d-flex flex-column justify-content justify-center align-items align-center">
             <img src='../assets/logo.png'>
-            <h1 class="mt-8 .text-h3">TestHomePageTitle</h1>
+            <h1 class="mt-8 .text-h3">Research, Development, & Acquisition</h1>
         </figure>
     </div>
 </template>
