@@ -4,14 +4,18 @@
     <div slot="MainContent">
       <div class="FundConceptWrapper">
         <figure>
-          <img :src="Image" alt="Graphic flow chart">
+          <img :src="Image" alt="Graphic flow chart" />
         </figure>
       </div>
+    </div>
+    <div slot="Notes">
+      <h1>RDA APPROPRIATIONS</h1>
+      <br />
+      <p>We will change focus and talk about the Money side of RDA</p>
     </div>
   </Card>
 </template>
 <style scoped>
-
 .FundConceptWrapper {
   width: 100%;
   height: auto;
@@ -22,7 +26,6 @@
 
 .FundConceptWrapper > figure {
   max-width: calc(1731px / 2);
-
 }
 
 .FundConceptWrapper > figure > img {
@@ -30,23 +33,20 @@
   max-width: calc(1731px / 2);
   height: auto;
 }
-
 </style>
 <script>
-import Card from '../../components/Card.vue';
+import Card from "../../components/Card.vue";
 
 export default {
-
   components: {
     Card
   },
-  name: 'RDAAppropriations',
-  
+  name: "RDAAppropriations",
+
   data() {
     return {
-      Image: require('@/assets/RDA Appropriations.png')
-    }
+      Image: require("@/assets/RDA Appropriations.png")
+    };
   }
-  
-}
+};
 </script>

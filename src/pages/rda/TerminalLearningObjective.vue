@@ -2,36 +2,51 @@
   <Card>
     <h1 slot="Title">Terminal Learning Objective</h1>
     <div slot="MainContent">
-      <p><b>Action</b><br>
-      Identify the Research, Development, and Acquisition (RDA) System.</p>
+      <p>
+        <b>Action</b>
+        <br />Identify the Research, Development, and Acquisition (RDA) System.
+      </p>
 
-      <p><b>Condition</b><br>
-      Given a summary sheet containing DoD 5000.1, AR 1-1, AR 11-18, AR 5-22 and DA PAM 70-3. </p>
+      <p>
+        <b>Condition</b>
+        <br />Given a summary sheet containing DoD 5000.1, AR 1-1, AR 11-18, AR 5-22 and DA PAM 70-3.
+      </p>
 
-      <p><b>Standard</b><br>
-      With 80% accuracy, determine research and development objective; verify history and background; recognize key players and review board; determine the acquisition process; and define acquisition resource management.</p>
+      <p>
+        <b>Standard</b>
+        <br />With 80% accuracy, determine research and development objective; verify history and background; recognize key players and review board; determine the acquisition process; and define acquisition resource management.
+      </p>
+    </div>
+    <div slot="Notes">
+      <h1>TERMINAL LEARNING OBJECTIVE</h1>
+      <br />
+      <p>Note: State the TLO</p>
+      <br />
+      <p>Safety Requirements: Everyone is responsible for safety. A thorough risk assessment must be completed prior to every mission or operation.</p>
+      <br />
+      <p>Risk Assessment Level: Low</p>
+      <p>Environmental Considerations: NOTE: It is the responsibility of all Soldiers and DA civilians to protect the environment from damage.</p>
+      <p>Environmental protection is not just the law but the right thing to do. It is a continual process and starts with deliberate planning. Always be alert to ways to protect our environment during training and missions. In doing so you will contribute to the sustainment of our training resources while protecting people and the environment from harmful effects.</p>
+      <br />
+      <p>Evaluation: Students will take a comprehensive test at the end of Week 1. Students must score 80% or higher and International officers must score 70% or higher.</p>
     </div>
   </Card>
 </template>
 <style scoped>
-
-
 </style>
 <script>
-import Card from '../../components/Card.vue';
+import Card from "../../components/Card.vue";
 
 export default {
-
   components: {
     Card
   },
-  name: 'TerminalLearningObjective',
-  
+  name: "TerminalLearningObjective",
+
   data() {
     return {
-      Image: ''
-    }
+      Image: ""
+    };
   }
-  
-}
+};
 </script>
