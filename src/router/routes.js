@@ -29,7 +29,7 @@ import ForeignMilitarySales2of4 from '../pages/rda/ForeignMilitarySales2of4.vue'
 import ForeignMilitarySales3of4 from '../pages/rda/ForeignMilitarySales3of4.vue';
 import ForeignMilitarySales4of4 from '../pages/rda/ForeignMilitarySales4of4.vue';
 import ForeignMilitarySalesProcess from '../pages/rda/ForeignMilitarySalesProcess.vue';
-
+import COL from '../pages/rda/COL.vue';
 // import router2
 
 import secondaryRouter from './secondaryRoute.js';
@@ -217,6 +217,12 @@ let routes = [
           path: '/rda/ForeignMilitarySalesProcess',
           name: 'ForeignMilitarySalesProcess',
           component: ForeignMilitarySalesProcess,
+        },
+        { 
+          title: 'Check on Learning',
+          path: '/rda/COL',
+          name: 'COL',
+          component: COL,
         },
         { 
           title: 'Terminal Learning Objective',
