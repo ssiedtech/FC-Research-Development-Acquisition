@@ -1,6 +1,6 @@
 <template>
   <Card>
-    <h1 slot="Title">Check on Learning</h1>
+    <div slot="Title">Check on Learning</div>
     <div slot="Qs">
       <p>Q: Who develops future force requirements?</p>
       <p>True / False.&nbsp; PEOs approve the baseline</p>

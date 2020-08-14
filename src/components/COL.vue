@@ -2,15 +2,11 @@
   <transition :name="'slide'" mode="out-in">
     <div class="Card">
       <div class="OuterWrapper">
-        <h1 class="pa-4" style="text-align: center; font-size: 32px;">{{ this.$props.BigTitle }}</h1>
-        <div v-if="this.$props.Title" class="CardTitleAndImageWrapper">
-          <h2>{{ this.$props.Title }}</h2>
-        </div>
+          <h1><slot name="Title"/></h1>
         <div class="CardLimiterWrapper">
           <div class="QuestionWrapper">
             <slot name="Qs"/>
           </div>
-
         </div>
       </div>
     </div>
@@ -18,6 +14,9 @@
 </template>
 
 <style scoped>
+  h1 {
+    text-align: center;
+  }
   .QuestionWrapper {
     padding: 20px;
     background-color: #1e1e1e;
