@@ -30,6 +30,10 @@ import ForeignMilitarySales3of4 from '../pages/rda/ForeignMilitarySales3of4.vue'
 import ForeignMilitarySales4of4 from '../pages/rda/ForeignMilitarySales4of4.vue';
 import ForeignMilitarySalesProcess from '../pages/rda/ForeignMilitarySalesProcess.vue';
 import COL from '../pages/rda/COL.vue';
+import COL2 from '../pages/rda/COL2.vue';
+import COL3 from '../pages/rda/COL3.vue';
+import COL4 from '../pages/rda/COL4.vue';
+import COL5 from '../pages/rda/COL5.vue';
 // import router2
 
 import secondaryRouter from './secondaryRoute.js';
@@ -85,6 +89,12 @@ let routes = [
           path: '/rda/KeyArmyStakeholders',
           name: 'KeyArmyStakeholders',
           component: KeyArmyStakeholders,
+        },
+        {
+          title: 'Check On Learning',
+          path: '/rda/COL2',
+          name: 'COL2.vue',
+          component: COL2,
         },
         {
           title: 'Describe The Process or Identifying Army RDA Needs',
@@ -145,7 +155,12 @@ let routes = [
           path: '/rda/CapabilityMissionLattice30',
           name: 'CapabilityMissionLattice30',
           component: CapabilityMissionLattice30,
-        },
+        },{
+        title: 'Check On Learning',
+        path: '/rda/COL3',
+        name: 'CheckOnLearning3',
+        component: COL3,
+      },
         {
           title: 'RDA Appropriations',
           path: '/rda/RDAAppropriations',
@@ -188,6 +203,11 @@ let routes = [
           name: 'FlowofFunds',
           component: FlowofFunds,
         },
+        {title: 'Check On Learning',
+        path: '/rda/COL4',
+        name: 'COL4.vue',
+        component: COL4,
+      },
         {
           title: 'Foreign Military Sales (1 of 4)',
           path: '/rda/ForeignMilitarySales1of4',
@@ -218,6 +238,11 @@ let routes = [
           name: 'ForeignMilitarySalesProcess',
           component: ForeignMilitarySalesProcess,
         },
+        {title: 'Check On Learning',
+        path: '/rda/COL5',
+        name: 'COL5.vue',
+        component: COL5,
+      },
         { 
           title: 'Check on Learning',
           path: '/rda/COL',

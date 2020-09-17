@@ -9,12 +9,15 @@
 
       <p>
         <b>Condition</b>
-        <br />Given a summary sheet containing DoD 5000.1, AR 1-1, AR 11-18, AR 5-22 and DA PAM 70-3.
+        <br />FC Leaders in a classroom environment working individually and as a member of a small group, using AR 1-1, AR 5-22, DA Pam 70-3, Army Management Structured Guide, self-study exercises, personal experiences, practical exercises, handouts, and discussion.
       </p>
 
       <p>
         <b>Standard</b>
-        <br />With 80% accuracy, determine research and development objective; verify history and background; recognize key players and review board; determine the acquisition process; and define acquisition resource management.
+        <br />- Define Army research and development objectives without error
+<br>- Identify the Requirements Generation Process (RGP) without error
+<br>- Identify RDA appropriations without error
+<br>- Identify foreign military sales without error
       </p>
     </div>
     <div slot="Notes">
